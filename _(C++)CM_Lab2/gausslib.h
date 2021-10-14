@@ -16,7 +16,7 @@ double ** copyMatrix(double ** dptrMatrix) {
 	return clone;
 }
 
-double* copyVector(double * ptrVector) {
+double * copyVector(double * ptrVector) {
 	double * clone = new double[N];
 	for (int i = 0; i < N; i++) {
 		clone[i] = ptrVector[i];
