@@ -17,7 +17,7 @@ std::string * SLAU2String(double ** dptrMatrix, double * ptrEqual) {
 	return stringify;
 }
 
-double ** dptrMatrix = new double* [N] {
+double ** dptrMatrix = new double * [N] {
 	new double[N] {-1, 0.28, -0.17, 0.06},
 	new double[N] {0.52, -1, 0.12, 0.17},
 	new double[N] {0.17, -0.18, -0.79, 0},
