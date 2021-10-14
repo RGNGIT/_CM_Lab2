@@ -10,7 +10,7 @@ std::string * SLAU2String(double ** dptrMatrix, double * ptrEqual) {
 			stringify[i] += dptrMatrix[i][j] >= 0 ? ((j > 0 ? " + " : "")
 				+ std::to_string(dptrMatrix[i][j])) : (" - "
 			    + std::to_string(dptrMatrix[i][j] * -1));
-			stringify[i] += "x" + std::to_string(j + 1);;
+			stringify[i] += "x" + std::to_string(j + 1);
 		}
 		stringify[i] += " = " + std::to_string(ptrEqual[i]);
 	}
